@@ -1,9 +1,10 @@
+/*
 #include "SevSegShift.h" //Heavily dependent on this library built for managing the 7 segment display
                          //https://github.com/bridystone/SevSegShift
 
-#define SHIFT_PIN_DS   8 /* Data input PIN */
-#define SHIFT_PIN_STCP 7 /* Shift Register Storage PIN */
-#define SHIFT_PIN_SHCP 6 /* Shift Register Shift PIN */
+#define SHIFT_PIN_DS   8 
+#define SHIFT_PIN_STCP 7 
+#define SHIFT_PIN_SHCP 6 
 
 SevSegShift sevsegshift(SHIFT_PIN_DS, SHIFT_PIN_SHCP, SHIFT_PIN_STCP, 1, true); //Instantiate a seven segment controller object (with Shift Register functionality)
 
@@ -53,3 +54,4 @@ void loop() {
   digitalWrite(ledPin1, HIGH);
   digitalWrite(ledPin2, LOW);
 }
+*/
