@@ -1,4 +1,4 @@
-/*#include "SevSeg.h" //Heavily dependent on this library built for managing the 7 segment display
+#include "SevSeg.h" //Heavily dependent on this library built for managing the 7 segment display
 SevSeg sevseg;      //https://github.com/DeanIsMe/SevSeg
 
 // Definition of other variables and components
@@ -47,4 +47,3 @@ void loop() {
   digitalWrite(ledPin1, HIGH);
   digitalWrite(ledPin2, LOW);
 }
-*/
