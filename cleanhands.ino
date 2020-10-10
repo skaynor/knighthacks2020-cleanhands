@@ -2,7 +2,7 @@
 SevSeg sevseg;      //https://github.com/DeanIsMe/SevSeg
 
 // Definition of other variables and components
-int countdown = 5;
+int countdown = 20;
 unsigned long timer = 0;
 unsigned long lastTime = 0;
 byte ledPin1 = 0;
